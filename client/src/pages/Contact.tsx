@@ -14,7 +14,7 @@ export default function Contact() {
               <span className="text-accent">Contact</span> <span className="text-primary">Us</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="contact-description">
-              Get in touch with Rwanda's leading aquaculture company. We're here to help with your tilapia needs.
+              Get in touch with Kenya's leading aquaculture company. We're here to help with your tilapia needs.
             </p>
           </div>
         </div>
