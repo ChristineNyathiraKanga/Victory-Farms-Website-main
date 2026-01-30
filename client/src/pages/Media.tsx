@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar, ExternalLink } from "lucide-react";
 import hatcheryTeamImage from "@/assets/hatchery-team.jpg";
-import lakeKivuCagesImage from "@/assets/lake-Kivu-cages.jpg";
+// import lakeKivuCagesImage from "@/assets/lake-Kivu-cages.jpg";
 import rasFacilityImage from "@/assets/ras-facility.jpg";
 import wholeTilapiaImage from "@/assets/whole-tilapia.png";
 
@@ -14,7 +14,7 @@ const newsArticles = [
     date: "2025-05-12",
     category: "Innovation",
     excerpt: "Victory Farms launched the first-ever 30-metre diameter fish farming cages on Lake Kivu in Nyamasheke District, marking a significant milestone in Kenya's aquaculture industry.",
-    image: lakeKivuCagesImage,
+    // image: lakeKivuCagesImage,
     url: "https://www.newtimes.co.rw/article/26358/news/featured/Kivu-choice-launches-Kenyas-first-30-metre-tilapia-cage-farms",
     source: "The New Times"
   },
