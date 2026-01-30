@@ -1,6 +1,6 @@
 # Overview
 
-This is a full-stack TypeScript web application for "Kivu Choice," a Rwandan tilapia fish farm company. The application serves as a corporate website showcasing the company's products, team, and operations. Built with a modern React frontend and Express.js backend, it provides information about their aquaculture business, product catalog, team members, company statistics, and a newsletter subscription system.
+This is a full-stack TypeScript web application for "Victory Farms," a Kenyan tilapia fish farm company. The application serves as a corporate website showcasing the company's products, team, and operations. Built with a modern React frontend and Express.js backend, it provides information about their aquaculture business, product catalog, team members, company statistics, and a newsletter subscription system.
 
 # User Preferences
 

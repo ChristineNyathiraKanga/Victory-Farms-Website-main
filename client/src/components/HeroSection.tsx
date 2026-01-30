@@ -15,18 +15,17 @@ export default function HeroSection() {
             </div>
             
             <h1 className="font-brand text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal leading-[1.1] tracking-wide mb-6 uppercase" data-testid="hero-title">
-              <span className="block text-primary">FRESH</span>
-              <span className="block text-accent">RWANDAN</span>
+              <span className="block text-primary">AFFORDABLE</span>
+              <span className="block text-accent">KENYAN</span>
               <span className="block text-primary">TILAPIA</span>
             </h1>
             
             <p className="text-body text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed max-w-lg" data-testid="hero-description">
-              Rwanda's largest protein producer delivering premium tilapia from Lake Kivu. 
-              Vertically integrated operations from hatchery to your table.
+              Kenya's largest protein producer delivering affordable tilapia from Lake Victoria with vertically integrated operations from hatchery to your table.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <Link href="/products" data-testid="button-view-products">
+              <Link href="https://www.victoryfresh.co.ke/collections/all" data-testid="button-view-products">
                 <Button 
                   size="lg"
                   className="btn-primary px-8 py-4 text-base font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
@@ -51,7 +50,7 @@ export default function HeroSection() {
             <div className="relative">
               <img 
                 src={providenceImage} 
-                alt="Kivu Choice worker showing fresh tilapia harvest at Lake Kivu" 
+                alt="Drone shot of Victory Farms Homabay operations on Lake Victoria" 
                 className="rounded-2xl shadow-lg w-full"
                 data-testid="hero-image"
               />

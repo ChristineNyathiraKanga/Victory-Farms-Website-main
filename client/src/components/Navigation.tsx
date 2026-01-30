@@ -3,7 +3,8 @@ import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import kivuChoiceLogo from "@assets/KC_Fish-and-text_Horizontal_Color-2048x823_1757065679913.png";
+import KivuChoiceLogo from "@assets/KC_Fish-and-text_Horizontal_Color-2048x823_1757065679913.png";
+import VFLogo from "@assets/VF_Fish-and-text_Horizontal_GB-NU_page-0001.jpg";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -31,8 +32,8 @@ export default function Navigation() {
           <Link href="/" data-testid="link-home">
             <div className="flex items-center hover:opacity-80 transition-opacity">
               <img 
-                src={kivuChoiceLogo} 
-                alt="Kivu Choice" 
+                src={VFLogo} 
+                alt="Victory Farms" 
                 className="h-8 w-auto"
               />
             </div>
@@ -81,7 +82,7 @@ export default function Navigation() {
                     </span>
                   </Link>
                 ))}
-                <Link href="/products" data-testid="mobile-button-order-now">
+                <Link href="https://www.victoryfresh.co.ke/collections/all" data-testid="mobile-button-order-now">
                   <Button 
                     className="bg-primary text-primary-foreground hover:bg-primary/90 w-full"
                     onClick={() => setIsOpen(false)}

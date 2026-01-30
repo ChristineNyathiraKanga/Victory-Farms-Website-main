@@ -1,5 +1,6 @@
 import { Facebook, Twitter, Linkedin, Instagram, MapPin, Phone, Mail } from "lucide-react";
-import kivuChoiceLogo from "@assets/KC_Fish-and-text_Horizontal_Color-2048x823_1757065679913.png";
+import KivuChoiceLogo from "@assets/KC_Fish-and-text_Horizontal_Color-2048x823_1757065679913.png";
+import VFLogo from "@assets/android-chrome-512x512.png";
 
 export default function Footer() {
   return (
@@ -10,30 +11,29 @@ export default function Footer() {
           <div data-testid="company-info">
             <div className="flex items-center mb-4">
               <img 
-                src={kivuChoiceLogo} 
-                alt="Kivu Choice" 
+                src={VFLogo} 
+                alt="Victory Farms" 
                 className="h-10 w-auto filter brightness-0 invert"
               />
             </div>
             <p className="text-white/70 mb-4 text-sm">
-              Rwanda's largest protein producer and fastest growing fish farm. 
-              Vertically integrated aquaculture operations from hatchery to nationwide distribution of premium fresh tilapia.
+              Kenya's largest protein producer delivering affordable tilapia from Lake Victoria with vertically integrated aquaculture operations from hatchery to nationwide distribution of fresh tilapia.
             </p>
             <div className="space-y-2 text-sm">
               <div className="flex items-center">
                 <MapPin className="text-primary mr-2 h-4 w-4" />
-                <span className="text-white/70">8 KN 16 Avenue, Kiyovu, Kigali, Rwanda</span>
+                <span className="text-white/70">Homabay Kenya</span>
               </div>
               <div className="flex items-center">
                 <Phone className="text-primary mr-2 h-4 w-4" />
                 <div className="text-white/70 text-sm">
-                  <div>General: +250739402617</div>
-                  <div>Sales & Service: +250795592280</div>
+                  <div>General: +2541234567</div>
+                  <div>Sales & Service: +25471234567</div>
                 </div>
               </div>
               <div className="flex items-center">
                 <Mail className="text-primary mr-2 h-4 w-4" />
-                <span className="text-white/70">info@kivuchoice.com</span>
+                <span className="text-white/70">info@victoryfarmskenya.com</span>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function Footer() {
           <div data-testid="products-links">
             <h4 className="font-bold text-lg mb-4 text-accent">Products</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="/products" className="text-white/70 link-hover hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:rounded">Our Products</a></li>
+              <li><a href="https://www.victoryfresh.co.ke/collections/all" className="text-white/70 link-hover hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:rounded">Our Products</a></li>
             </ul>
           </div>
 
@@ -66,13 +66,13 @@ export default function Footer() {
             <div className="mt-6" data-testid="social-media">
               <h5 className="font-semibold text-accent mb-2">Follow Us</h5>
               <div className="flex space-x-3">
-                <a href="https://x.com/Kivuchoice" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
+                <a href="https://x.com/VictoryFarmsLtd" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
                   <Twitter className="h-4 w-4" />
                 </a>
-                <a href="https://www.linkedin.com/company/kivu-choice" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
+                <a href="https://www.linkedin.com/company/victory-farms/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
                   <Linkedin className="h-4 w-4" />
                 </a>
-                <a href="https://www.instagram.com/kivuchoice/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
+                <a href="https://www.instagram.com/victoryfarmsltd.ke/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
                   <Instagram className="h-4 w-4" />
                 </a>
               </div>
@@ -82,7 +82,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
           <p className="text-white/70 mb-4 md:mb-0">
-            © 2025 Kivu Choice. All rights reserved.
+            © 2026 Victory Farms. All rights reserved.
           </p>
           <div className="flex space-x-6 text-white/70">
             <a href="/contact" className="hover:text-primary transition-colors">Privacy Policy</a>

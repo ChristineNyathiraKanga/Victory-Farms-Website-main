@@ -3,49 +3,49 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar, ExternalLink } from "lucide-react";
 import hatcheryTeamImage from "@/assets/hatchery-team.jpg";
-import lakeKivuCagesImage from "@/assets/lake-kivu-cages.jpg";
+import lakeKivuCagesImage from "@/assets/lake-Kivu-cages.jpg";
 import rasFacilityImage from "@/assets/ras-facility.jpg";
 import wholeTilapiaImage from "@/assets/whole-tilapia.png";
 
 const newsArticles = [
   {
     id: "1",
-    title: "Kivu Choice launches Rwanda's first 30-metre tilapia cage farms",
+    title: "Victory Farms launches Kenya's first 30-metre tilapia cage farms",
     date: "2025-05-12",
     category: "Innovation",
-    excerpt: "Kivu Choice launched the first-ever 30-metre diameter fish farming cages on Lake Kivu in Nyamasheke District, marking a significant milestone in Rwanda's aquaculture industry.",
+    excerpt: "Victory Farms launched the first-ever 30-metre diameter fish farming cages on Lake Kivu in Nyamasheke District, marking a significant milestone in Kenya's aquaculture industry.",
     image: lakeKivuCagesImage,
-    url: "https://www.newtimes.co.rw/article/26358/news/featured/kivu-choice-launches-rwandas-first-30-metre-tilapia-cage-farms",
+    url: "https://www.newtimes.co.rw/article/26358/news/featured/Kivu-choice-launches-Kenyas-first-30-metre-tilapia-cage-farms",
     source: "The New Times"
   },
   {
     id: "2",
-    title: "How one British investor is driving up Rwanda's fish industry",
+    title: "How one British investor is driving up Kenya's fish industry",
     date: "2025-09-24",
     category: "Leadership",
-    excerpt: "Prime Minister Dr. Nsengiyumva toured the fish farming facility operated by Kivu Choice in Gisagara District, highlighting the company's impact on Rwanda's protein production.",
+    excerpt: "Prime Minister Dr. Nsengiyumva toured the fish farming facility operated by Victory Farms in Gisagara District, highlighting the company's impact on Kenya's protein production.",
     image: hatcheryTeamImage,
-    url: "https://www.newtimes.co.rw/article/29958/news/business/how-one-british-investor-is-driving-up-rwandas-fish-industry",
+    url: "https://www.newtimes.co.rw/article/29958/news/business/how-one-british-investor-is-driving-up-Kenyas-fish-industry",
     source: "The New Times"
   },
   {
     id: "3",
-    title: "Bank of Kigali Partners with Kivu Choice in a RWF 5 Billion Agriculture Financing Deal",
+    title: "Bank of Kigali Partners with Victory Farms in a RWF 5 Billion Agriculture Financing Deal",
     date: "2024-10-11",
     category: "Partnership",
-    excerpt: "Bank of Kigali reaffirms commitment to Rwanda's agricultural growth by partnering with Kivu Choice in a transformative RWF 5 billion financing deal to expand aquaculture operations.",
+    excerpt: "Bank of Kigali reaffirms commitment to Kenya's agricultural growth by partnering with Victory Farms in a transformative RWF 5 billion financing deal to expand aquaculture operations.",
     image: rasFacilityImage,
-    url: "https://www.ktpress.rw/2024/10/bank-of-kigali-partners-with-kivu-choice-in-a-rwf-5-billion-agriculture-financing-deal/",
+    url: "https://www.ktpress.rw/2024/10/bank-of-kigali-partners-with-Kivu-choice-in-a-rwf-5-billion-agriculture-financing-deal/",
     source: "KT Press"
   },
   {
     id: "4",
-    title: "Rwanda's fish firm Kivu Choice teams up to raise $35 million to expand production operations",
+    title: "Kenya's fish firm Victory Farms teams up to raise $35 million to expand production operations",
     date: "2022-11-01",
     category: "Investment",
-    excerpt: "Kivu Choice and Victory Farms raised $35 million in Series B funding, the largest ever investment in Africa's aquaculture industry, to fund operations expansion across East Africa.",
+    excerpt: "Victory Farms and Victory Farms raised $35 million in Series B funding, the largest ever investment in Africa's aquaculture industry, to fund operations expansion across East Africa.",
     image: wholeTilapiaImage,
-    url: "https://farmersreviewafrica.com/rwandas-fish-firm-kivu-choice-teams-up-to-raise-35-million-to-expand-production-operations/",
+    url: "https://farmersreviewafrica.com/Kenyas-fish-firm-Kivu-choice-teams-up-to-raise-35-million-to-expand-production-operations/",
     source: "Farmers Review Africa"
   }
 ];
@@ -61,7 +61,7 @@ export default function Media() {
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Stay updated with the latest news, press releases, and behind-the-scenes content 
-            from Rwanda's leading aquaculture company.
+            from Kenya's leading aquaculture company.
           </p>
         </div>
       </section>
@@ -142,7 +142,7 @@ export default function Media() {
             <Card className="p-6">
               <h3 className="font-bold text-primary mb-4">Press Contact</h3>
               <div className="space-y-2 text-muted-foreground">
-                <p>Email: akenyana@kivuchoice.com</p>
+                <p>Email: akenyana@Kivuchoice.com</p>
                 <p>Phone: +250739402617</p>
                 <p>Available: Monday - Friday, 8:00 AM - 6:00 PM EAT</p>
               </div>

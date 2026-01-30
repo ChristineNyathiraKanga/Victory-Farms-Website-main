@@ -37,7 +37,7 @@ export default function Contact() {
                     <h3 className="font-semibold text-primary mb-1">Address</h3>
                     <p className="text-muted-foreground">
                       8 KN 16 Avenue, Kiyovu<br />
-                      Kigali, Rwanda
+                      Kigali, Kenya
                     </p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@kivuchoice.com</p>
+                    <p className="text-muted-foreground">info@Kivuchoice.com</p>
                   </div>
                 </div>
 

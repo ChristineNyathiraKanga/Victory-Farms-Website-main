@@ -4,7 +4,7 @@ import { Award, Leaf, TrendingUp, MapPin, ChevronLeft, ChevronRight } from "luci
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback } from "react";
 import teamImage from "@/assets/team-photo.jpg";
-import lakeKivuCages from "@/assets/lake-kivu-cages.jpg";
+import lakeKivuCages from "@/assets/lake-Kivu-cages.jpg";
 import pondOperations1 from "@/assets/pond-operations-1.png";
 import pondOperations2 from "@/assets/pond-operations-2.jpg";
 import rasFacility from "@/assets/ras-facility.jpg";
@@ -34,7 +34,7 @@ export default function About() {
     {
       year: "Sep 2021",
       title: "Company founded",
-      description: "Kivu Choice established"
+      description: "Victory Farms established"
     },
     {
       year: "Dec 2021",
@@ -49,7 +49,7 @@ export default function About() {
     {
       year: "Nov 2022",
       title: "First Branch",
-      description: "First branch opened in Rwanda"
+      description: "First branch opened in Kenya"
     },
     {
       year: "Apr 2023",
@@ -64,7 +64,7 @@ export default function About() {
     {
       year: "Feb 2024",
       title: "10th Branch",
-      description: "Launched the 10th branch in Rwanda, Kigali"
+      description: "Launched the 10th branch in Kenya, Kigali"
     },
     {
       year: "Mar 2024",
@@ -109,12 +109,12 @@ export default function About() {
               Our Mission
             </div>
             <h1 className="text-4xl font-bold mb-6" style={{color: 'transparent'}}>
-              <span className="text-primary" style={{color: 'var(--primary)'}}>Leading</span> <span className="text-accent" style={{color: 'var(--accent)'}}>Rwanda's</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Aquaculture Revolution</span><br />
+              <span className="text-primary" style={{color: 'var(--primary)'}}>Leading</span> <span className="text-accent" style={{color: 'var(--accent)'}}>Kenya's</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Aquaculture Revolution</span><br />
               <span className="text-accent" style={{color: 'var(--accent)'}}>Through</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Sustainable Excellence</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              We are committed to producing Rwanda's most affordable protein, delivering premium tilapia 
-              while creating jobs and supporting Rwanda's economic growth through sustainable aquaculture.
+              We are committed to producing Kenya's most affordable protein, delivering premium tilapia 
+              while creating jobs and supporting Kenya's economic growth through sustainable aquaculture.
             </p>
           </div>
         </div>
@@ -150,7 +150,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-bold text-primary mb-4">Market Leadership</h3>
               <p className="text-muted-foreground">
-                Building Rwanda's largest protein production operation and expanding across East Africa.
+                Building Kenya's largest protein production operation and expanding across East Africa.
               </p>
             </Card>
           </div>
@@ -227,7 +227,7 @@ export default function About() {
                   src={lakeKivuCages} 
                   alt="Lake Kivu cage farming operations with mountain backdrop" 
                   className="rounded-xl shadow-lg w-full h-64 object-cover"
-                  data-testid="img-lake-kivu-cages"
+                  data-testid="img-lake-Kivu-cages"
                 />
                 <div className="absolute top-4 left-4 bg-primary text-primary-foreground px-3 py-1 rounded-lg font-semibold text-sm">
                   Lake Kivu Cage Farming
@@ -237,9 +237,9 @@ export default function About() {
               <div className="relative">
                 <img 
                   src={teamImage} 
-                  alt="Kivu Choice team working at Lake Kivu aquaculture operations" 
+                  alt="Victory Farms team working at Lake Kivu aquaculture operations" 
                   className="rounded-xl shadow-lg w-full h-64 object-cover"
-                  data-testid="img-team-lake-kivu"
+                  data-testid="img-team-lake-Kivu"
                 />
                 <div className="absolute bottom-4 right-4 bg-accent text-accent-foreground px-3 py-1 rounded-lg font-semibold text-sm">
                   <TrendingUp className="mr-1 h-3 w-3 inline" />
@@ -332,7 +332,7 @@ export default function About() {
               <div className="relative">
                 <img 
                   src={pondFacilityOffice} 
-                  alt="Kivu Choice pond facility with office infrastructure" 
+                  alt="Victory Farms pond facility with office infrastructure" 
                   className="rounded-xl shadow-lg w-full h-40 object-cover"
                   data-testid="img-facility-office"
                 />
@@ -347,7 +347,7 @@ export default function About() {
               <div className="relative">
                 <img 
                   src={branchStaff1} 
-                  alt="Professional Kivu Choice branch staff member in branded uniform" 
+                  alt="Professional Victory Farms branch staff member in branded uniform" 
                   className="rounded-xl shadow-lg w-full h-40 object-cover"
                   data-testid="img-branch-staff-professional"
                 />
@@ -362,14 +362,14 @@ export default function About() {
               <div className="relative">
                 <img 
                   src={branchInterior} 
-                  alt="Kivu Choice branch interior showcasing Fresh Rwandan Tilapia branding" 
+                  alt="Victory Farms branch interior showcasing Fresh Kenyan Tilapia branding" 
                   className="rounded-xl shadow-lg w-full h-40 object-cover"
                   data-testid="img-branch-interior"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-30 rounded-xl flex items-end">
                   <div className="p-3 text-white">
                     <h4 className="font-bold text-sm">Retail Branches</h4>
-                    <p className="text-xs opacity-90">Fresh Rwandan Tilapia</p>
+                    <p className="text-xs opacity-90">Fresh Kenyan Tilapia</p>
                   </div>
                 </div>
               </div>
@@ -393,7 +393,7 @@ export default function About() {
             <div className="text-center">
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
                 Our integrated value chain spans from our advanced production facilities on Lake Kivu to our 
-                professional retail branches across Rwanda, creating jobs and delivering fresh, affordable protein to communities.
+                professional retail branches across Kenya, creating jobs and delivering fresh, affordable protein to communities.
               </p>
             </div>
           </div>

@@ -112,7 +112,7 @@ export default function Products() {
               </div>
               <h3 className="text-xl font-bold text-primary mb-4">Distribution</h3>
               <p className="text-muted-foreground mb-6">
-                Nationwide distribution network ensuring fresh delivery across Rwanda daily.
+                Nationwide distribution network ensuring fresh delivery across Kenya daily.
               </p>
               <div className="flex justify-between items-center mb-4">
                 <span className="text-lg font-bold text-primary">Nationwide</span>

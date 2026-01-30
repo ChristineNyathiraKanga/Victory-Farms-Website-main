@@ -79,10 +79,10 @@ export default function Team() {
             <Users className="w-16 h-16 mx-auto mb-4 text-white/90" />
             <h2 className="text-3xl font-bold mb-4">Join Our Growing Team</h2>
             <p className="text-xl text-white/90 mb-6">
-              Be part of Rwanda's leading aquaculture company. We're always looking for passionate individuals to help us revolutionize fish farming.
+              Be part of Kenya's leading aquaculture company. We're always looking for passionate individuals to help us revolutionize fish farming.
             </p>
             <a 
-              href="https://app.bag.work/company/kivuchoice166" 
+              href="https://app.bag.work/company/Kivuchoice166" 
               target="_blank" 
               rel="noopener noreferrer"
             >

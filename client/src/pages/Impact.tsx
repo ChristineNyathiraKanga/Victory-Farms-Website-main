@@ -53,8 +53,8 @@ export default function Impact() {
               <span className="text-accent">Fish Powder</span> <span className="text-primary">Innovation</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Kivu Choice is transforming our premium tilapia into nutrient-dense fish powder to combat 
-              childhood stunting and malnutrition across Rwanda. Our innovative approach provides 
+              Victory Farms is transforming our affordable tilapia into nutrient-dense fish powder to combat 
+              childhood stunting and malnutrition across Kenya. Our innovative approach provides 
               more nutrition per dollar than any other protein source.
             </p>
           </div>
@@ -79,14 +79,14 @@ export default function Impact() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-8">
-                <span className="text-accent">Addressing</span> <span className="text-primary">Rwanda's</span> <span className="text-accent">Nutrition Challenge</span>
+                <span className="text-accent">Addressing</span> <span className="text-primary">Kenya's</span> <span className="text-accent">Nutrition Challenge</span>
               </h2>
               
               <div className="space-y-6">
                 <div className="bg-muted/50 p-6 rounded-xl">
                   <h3 className="text-xl font-bold text-accent mb-3">The Challenge</h3>
                   <p className="text-muted-foreground">
-                    Childhood stunting affects 33% of children under 5 in Rwanda. Traditional protein sources 
+                    Childhood stunting affects 33% of children under 5 in Kenya. Traditional protein sources 
                     are either too expensive or provide insufficient nutrients for optimal child development.
                   </p>
                 </div>
@@ -94,7 +94,7 @@ export default function Impact() {
                 <div className="bg-primary/5 p-6 rounded-xl">
                   <h3 className="text-xl font-bold text-primary mb-3">Our Solution</h3>
                   <p className="text-muted-foreground">
-                    Fish powder from our premium tilapia provides the highest nutrition value per dollar of any animal-sourced food.
+                    Fish powder from our affordable tilapia provides the highest nutrition value per dollar of any animal-sourced food.
                   </p>
                 </div>
               </div>
@@ -135,10 +135,10 @@ export default function Impact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              <span className="text-primary">Rwanda's First Superfood</span> <span className="text-accent">- Now Available</span>
+              <span className="text-primary">Kenya's First Superfood</span> <span className="text-accent">- Now Available</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Our premium fish powder products are designed for different needs - from daily child nutrition 
+              Our affordable fish powder products are designed for different needs - from daily child nutrition 
               to restaurant-grade cooking applications.
             </p>
           </div>
@@ -212,7 +212,7 @@ export default function Impact() {
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-primary mr-2 flex-shrink-0" />
-                    <span>Premium quality for cooking applications</span>
+                    <span>affordable quality for cooking applications</span>
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-primary mr-2 flex-shrink-0" />
@@ -220,7 +220,7 @@ export default function Impact() {
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-primary mr-2 flex-shrink-0" />
-                    <span>Made in Rwanda</span>
+                    <span>Made in Kenya</span>
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-primary mr-2 flex-shrink-0" />
@@ -249,7 +249,7 @@ export default function Impact() {
               <span className="text-accent">Transforming Lives Through</span> <span className="text-primary">Nutrition</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Our fish powder program addresses multiple challenges facing Rwandan families seeking 
+              Our fish powder program addresses multiple challenges facing Kenyan families seeking 
               optimal nutrition for their children.
             </p>
           </div>
@@ -281,7 +281,7 @@ export default function Impact() {
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Fish powder provides the best nutrition per dollar, making healthy development 
-              accessible to more Rwandan families.
+              accessible to more Kenyan families.
             </p>
           </div>
 
@@ -336,7 +336,7 @@ export default function Impact() {
             Join Our Mission to End Childhood Stunting
           </h2>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            Partner with Kivu Choice to bring nutrient-dense fish powder to communities across Rwanda. 
+            Partner with Victory Farms to bring nutrient-dense fish powder to communities across Kenya. 
             Together, we can ensure every child has access to the nutrition they need to thrive.
           </p>
           <div className="flex justify-center">

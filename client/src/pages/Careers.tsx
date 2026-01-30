@@ -46,7 +46,7 @@ const openPositions = [
     requirements: [
       "Degree in Business, Marketing, or related field",
       "2+ years B2B sales experience",
-      "Excellent communication skills in English and Kinyarwanda",
+      "Excellent communication skills in English and KinyaKenya",
       "Willingness to travel within East Africa"
     ]
   },
@@ -72,7 +72,7 @@ const openPositions = [
     location: "Kigali",
     type: "Full-time",
     experience: "2+ years",
-    description: "Coordinate feed procurement, equipment sourcing, and product distribution across Rwanda. Optimize supply chain efficiency and cost management.",
+    description: "Coordinate feed procurement, equipment sourcing, and product distribution across Kenya. Optimize supply chain efficiency and cost management.",
     requirements: [
       "Degree in Supply Chain Management, Logistics, or related field",
       "2+ years supply chain experience",
@@ -122,7 +122,7 @@ const cultureValues = [
   },
   {
     title: "Community Impact",
-    description: "Creating jobs, supporting local communities, and contributing to Rwanda's food security goals.",
+    description: "Creating jobs, supporting local communities, and contributing to Kenya's food security goals.",
     image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&h=400"
   }
 ];
@@ -148,7 +148,7 @@ export default function Careers() {
             <span className="text-primary">Join Our</span> <span className="text-accent">Team</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Build your career with Rwanda's leading aquaculture company. Join us in revolutionizing 
+            Build your career with Kenya's leading aquaculture company. Join us in revolutionizing 
             sustainable fish farming and creating lasting impact in East Africa.
           </p>
         </div>
@@ -159,7 +159,7 @@ export default function Careers() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              <span className="text-primary">Why Choose</span> <span className="text-accent">Kivu Choice?</span>
+              <span className="text-primary">Why Choose</span> <span className="text-accent">Victory Farms?</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Be part of Africa's fastest growing fish farm and make a meaningful impact
@@ -283,7 +283,7 @@ export default function Careers() {
               <span className="text-primary">Application</span> <span className="text-accent">Process</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Simple steps to join Rwanda's most innovative aquaculture company
+              Simple steps to join Kenya's most innovative aquaculture company
             </p>
           </div>
 
@@ -294,7 +294,7 @@ export default function Careers() {
               </div>
               <h3 className="text-xl font-bold mb-4 text-primary">Submit Application</h3>
               <p className="text-muted-foreground">
-                Send your CV and cover letter to careers@kivuchoice.com or apply directly through the position listing.
+                Send your CV and cover letter to careers@Kivuchoice.com or apply directly through the position listing.
               </p>
             </Card>
 
@@ -335,7 +335,7 @@ export default function Careers() {
             <Card className="p-6">
               <h3 className="font-bold text-primary mb-4">General Applications</h3>
               <div className="space-y-2 text-muted-foreground">
-                <p>Email: careers@kivuchoice.com</p>
+                <p>Email: careers@Kivuchoice.com</p>
                 <p>Subject: [Position] - Your Name</p>
                 <p>Include: CV, Cover Letter, Portfolio (if applicable)</p>
               </div>

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div data-testid="home-page">
       <HeroSection />
-      <StatsSection />
+      {/* <StatsSection /> */}
       
       {/* About Section */}
       <section className="bg-muted/50 py-8" data-testid="about-section">
@@ -22,12 +22,12 @@ export default function Home() {
               Our Mission
             </div>
             <h2 className="text-4xl lg:text-5xl font-bold mb-6" style={{color: 'transparent'}}>
-              <span className="text-primary" style={{color: 'var(--primary)'}}>Leading</span> <span className="text-accent" style={{color: 'var(--accent)'}}>Rwanda's</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Aquaculture Revolution</span><br />
+              <span className="text-primary" style={{color: 'var(--primary)'}}>Leading</span> <span className="text-accent" style={{color: 'var(--accent)'}}>Kenya's</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Aquaculture Revolution</span><br />
               <span className="text-accent" style={{color: 'var(--accent)'}}>Through</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Sustainable Excellence</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              We are committed to producing Rwanda's most affordable protein, delivering premium tilapia 
-              while creating jobs and supporting Rwanda's economic growth through sustainable aquaculture.
+              We are committed to producing Kenya's most affordable protein, delivering premium tilapia 
+              while creating jobs and supporting Kenya's economic growth through sustainable aquaculture.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-accent mb-4">Sustainable Operations</h3>
               <p className="text-muted-foreground">
-                Environmentally responsible farming that protects Lake Kivu and supports local communities.
+                Environmentally responsible farming that protects Lake Victoria and supports local communities.
               </p>
             </Card>
             
@@ -58,7 +58,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-primary mb-4">Market Leadership</h3>
               <p className="text-muted-foreground">
-                Building Rwanda's largest protein production operation and expanding across East Africa.
+                Building Kenya's largest protein production operation and expanding across East Africa.
               </p>
             </Card>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-primary mb-4">The Hatchery</h3>
               <p className="text-muted-foreground">
-                One of Africa's largest hatcheries with 5+ million fingerlings production capacity monthly.
+                One of Africa's largest hatcheries with 30KMT capacity.
               </p>
             </div>
             
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-accent mb-4">Production Farm</h3>
               <p className="text-muted-foreground">
-                Cage-based farming operations on Lake Kivu with sustainable and responsible practices.
+                Cage-based farming operations on Lake Victoria with sustainable and responsible practices.
               </p>
             </div>
             
@@ -102,7 +102,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-primary mb-4">Sales & Logistics</h3>
               <p className="text-muted-foreground">
-                Daily harvest and nationwide distribution through our trusted outlets across Rwanda.
+                Daily harvest and nationwide distribution through our trusted outlets across Kenya.
               </p>
             </div>
           </div>
@@ -112,7 +112,7 @@ export default function Home() {
             <div className="relative">
               <img 
                 src={feedingImage} 
-                alt="Fish feeding operations at Lake Kivu" 
+                alt="Fish feeding operations at Lake Victoria" 
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
@@ -122,7 +122,7 @@ export default function Home() {
             <div className="relative">
               <img 
                 src={harvestImage} 
-                alt="Fresh tilapia harvest from Lake Kivu cages" 
+                alt="Fresh tilapia harvest from Lake Victoria cages" 
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
@@ -137,14 +137,14 @@ export default function Home() {
       <section className="bg-accent py-8" data-testid="cta-section">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Partner with Rwanda's Leading Fish Farm
+            Partner with Kenya's Leading Tilapia Farm from Lake Victoria
           </h2>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            Whether you're a restaurant seeking premium tilapia, a distributor looking for reliable supply, 
-            or an investor interested in sustainable aquaculture, join us in building Rwanda's protein future.
+            Whether you're a restaurant seeking affordable tilapia, a distributor looking for reliable supply, 
+            or an investor interested in sustainable aquaculture, join us in building Kenya's protein future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/products" data-testid="button-cta-products">
+            <Link href="https://www.victoryfresh.co.ke/collections/all" data-testid="button-cta-products">
               <Button 
                 size="lg"
                 className="bg-white text-accent hover:bg-white/90 transition-all transform hover:scale-105"
