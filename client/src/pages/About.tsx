@@ -4,7 +4,7 @@ import { Award, Leaf, TrendingUp, MapPin, ChevronLeft, ChevronRight } from "luci
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback } from "react";
 import teamImage from "@/assets/team-photo.jpg";
-import lakeKivuCages from "@/assets/lake-Kivu-cages.jpg";
+// import lakeKivuCages from "@/assets/lake-Kivu-cages.jpg";
 import pondOperations1 from "@/assets/pond-operations-1.png";
 import pondOperations2 from "@/assets/pond-operations-2.jpg";
 import rasFacility from "@/assets/ras-facility.jpg";
@@ -224,7 +224,7 @@ export default function About() {
             <div className="space-y-6">
               <div className="relative">
                 <img 
-                  src={lakeKivuCages} 
+                  src={/* lakeKivuCages */ ''} 
                   alt="Lake Kivu cage farming operations with mountain backdrop" 
                   className="rounded-xl shadow-lg w-full h-64 object-cover"
                   data-testid="img-lake-Kivu-cages"
