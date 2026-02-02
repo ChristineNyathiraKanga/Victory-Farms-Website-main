@@ -94,7 +94,7 @@ export default function Contact() {
                 <h3 className="text-2xl font-bold mb-6 text-center">
                   <span className="text-primary">Find Our</span> <span className="text-accent">Branches</span>
                 </h3>
-                <BranchMap />
+                {/* <BranchMap /> */}
                 <p className="text-sm text-muted-foreground text-center mt-4">
                   For Access to our Branch Locations Dial *617*13#
                 </p>
