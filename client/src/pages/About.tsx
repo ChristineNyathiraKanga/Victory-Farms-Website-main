@@ -4,7 +4,7 @@ import { Award, Leaf, TrendingUp, MapPin, ChevronLeft, ChevronRight } from "luci
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback } from "react";
 import teamImage from "@/assets/team-photo.jpg";
-// import lakeKivuCages from "@/assets/lake-Kivu-cages.jpg";
+// import lakeVictoriaCages from "@/assets/lake-Victoria-cages.jpg";
 import pondOperations1 from "@/assets/pond-operations-1.png";
 import pondOperations2 from "@/assets/pond-operations-2.jpg";
 import rasFacility from "@/assets/ras-facility.jpg";
@@ -44,7 +44,7 @@ export default function About() {
     {
       year: "Jun 2022",
       title: "Lake Operations",
-      description: "First cage stocked on lake Kivu"
+      description: "First cage stocked on lake Victoria"
     },
     {
       year: "Nov 2022",
@@ -104,10 +104,10 @@ export default function About() {
       <section className="bg-muted/50 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-6">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
+            {/* <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <Award className="mr-2 h-4 w-4" />
               Our Mission
-            </div>
+            </div> */}
             <h1 className="text-4xl font-bold mb-6" style={{color: 'transparent'}}>
               <span className="text-primary" style={{color: 'var(--primary)'}}>Leading</span> <span className="text-accent" style={{color: 'var(--accent)'}}>Kenya's</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Aquaculture Revolution</span><br />
               <span className="text-accent" style={{color: 'var(--accent)'}}>Through</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Sustainable Excellence</span>
@@ -140,7 +140,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-bold text-accent mb-4">Sustainable Operations</h3>
               <p className="text-muted-foreground">
-                Environmentally responsible farming that protects Lake Kivu and supports local communities.
+                Environmentally responsible farming that protects Lake Victoria and supports local communities.
               </p>
             </Card>
             
@@ -158,16 +158,17 @@ export default function About() {
           {/* Mission Statement */}
           <div className="text-center mb-16">
             <h3 className="text-3xl font-bold mb-6">
-              <span className="text-primary">Democratizing Access</span> <span className="text-accent">to</span> <span className="text-primary">Animal Protein</span>
+              <span className="text-primary">Our</span> <span className="text-accent">Mission</span>
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-4xl mx-auto">
-              Our mission is to democratize access to animal protein by radically increasing affordability and 
-              supply across the region. We do this through continuous innovation and careful execution 
-              across every step of the value chain.
+           Our mission is to build a commercial tilapia farm that can feed 2 billion Africans with affordable, accessible and healthy protein over the next 2 decades.
+           The company aims to do so while also working toward becoming the most sustainable fish farm on the planet. 
+           Victory Farms and its innovative technologies bring together the best aquaculture practices from around the globe to tackle the challenges of;
+          rapidly declining wild fish catch in Lake Victoria, rising populations and undernourishment.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed max-w-4xl mx-auto">
               From our state-of-the-art hatchery with capacity to produce over 5 million fingerlings monthly to our cage-based 
-              farming operations on Lake Kivu, we maintain industry-leading performance metrics through 
+              farming operations on Lake Victoria, we maintain industry-leading performance metrics through 
               data-driven farming practices.
             </p>
           </div>
@@ -220,26 +221,26 @@ export default function About() {
 
           {/* Operations Showcase */}
           <div className="grid lg:grid-cols-2 gap-8 mb-16">
-            {/* Lake Kivu Operations */}
+            {/* Lake Victoria Operations */}
             <div className="space-y-6">
               <div className="relative">
                 <img 
-                  src={/* lakeKivuCages */ ''} 
-                  alt="Lake Kivu cage farming operations with mountain backdrop" 
+                  src={/* lakeVictoriaCages */ ''} 
+                  alt="Lake Victoria cage farming operations with mountain backdrop" 
                   className="rounded-xl shadow-lg w-full h-64 object-cover"
-                  data-testid="img-lake-Kivu-cages"
+                  data-testid="img-lake-Victoria-cages"
                 />
                 <div className="absolute top-4 left-4 bg-primary text-primary-foreground px-3 py-1 rounded-lg font-semibold text-sm">
-                  Lake Kivu Cage Farming
+                  Lake Victoria Cage Farming
                 </div>
               </div>
               
               <div className="relative">
                 <img 
                   src={teamImage} 
-                  alt="Victory Farms team working at Lake Kivu aquaculture operations" 
+                  alt="Victory Farms team working at Lake Victoria aquaculture operations" 
                   className="rounded-xl shadow-lg w-full h-64 object-cover"
-                  data-testid="img-team-lake-Kivu"
+                  data-testid="img-team-lake-Victoria"
                 />
                 <div className="absolute bottom-4 right-4 bg-accent text-accent-foreground px-3 py-1 rounded-lg font-semibold text-sm">
                   <TrendingUp className="mr-1 h-3 w-3 inline" />
@@ -392,7 +393,7 @@ export default function About() {
             
             <div className="text-center">
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Our integrated value chain spans from our advanced production facilities on Lake Kivu to our 
+                Our integrated value chain spans from our advanced production facilities on Lake Victoria to our 
                 professional retail branches across Kenya, creating jobs and delivering fresh, affordable protein to communities.
               </p>
             </div>
