@@ -82,7 +82,7 @@ export default function Team() {
               Be part of Kenya's leading aquaculture company. We're always looking for passionate individuals to help us revolutionize fish farming.
             </p>
             <a 
-              href="https://app.bag.work/company/Kivuchoice166" 
+              href="https://erp.victoryfarmskenya.com/talent-pool/new" 
               target="_blank" 
               rel="noopener noreferrer"
             >
