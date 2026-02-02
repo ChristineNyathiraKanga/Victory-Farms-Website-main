@@ -32,73 +32,57 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
-    id: "20",
-    slug: "crispy-tilapia",
-    title: "Crispy Tilapia",
-    date: "2024-07-01",
-    category: "Community",
-    excerpt: "A delicious crispy tilapia recipe with a crunchy cornflake crust, perfect for a healthy and flavorful meal.",
-    image: crispyTilapiaImage,
+    id: "1",
+    slug: "families-reap-income-from-aquaponics-project",
+    title: "Families reap income from aquaponics project",
+    date: "2025-11-28",
+    category: "Community Impact",
+    excerpt: "Victory Farms is transforming the livelihoods of smallholder farmers in Kaksingri through the HEAP aquaponics initiative.",
+    image: heapAquaponicsImage,
     content: `
-<p><strong>Ingredients:</strong><br>4 tilapia fillets<br>3 eggs<br>1 cup wheat flour<br>3 cups cornflakes<br>1/2 tsp cumin<br>1/2 tsp black pepper<br>1/2 tsp garlic powder<br>1/2 tsp salt<br>1/2 tsp paprika<br>4 red royco beef cubes</p>
+<p><strong>As featured in Kenya News Agency</strong></p>
 
-<p><strong>Marinade:</strong><br>3 tbsp soy sauce<br>3 tbsp ginger garlic paste<br>1 tsp water</p>
+<p>Victory Farms is transforming the livelihoods of smallholder farmers in Kaksingri, Suba South Sub-County, through an ambitious aquaponics initiative that is turning idle land into a consistent source of income.</p>
 
-<h2>Process:</h2>
+<p>The Homa Bay Extensive Aquaponics Programme (HEAP), an innovative partnership between the aquaculture firm and local landowners, is emerging as one of the region's most promising rural economic empowerment models.</p>
 
-<p>In a bowl, mix the soy sauce, water and ginger garlic paste to make the marinade. Massage the marinade into every fish fillet and chill in the fridge while covered for 30 mins (minimum) to 1 hour (maximum). The soy sauce helps to tenderize the fillet and infuses flavor. Don't marinate for more than 1 hour as the fish fillet will be mushy when cooked.</p>
+<p>Through the programme, smallholder farmers earn steady monthly royalties from fish-egg production hosted on their underutilized land.</p>
 
-<p>As the fillet marinates, in a blender, blend the cornflakes, spices and salt till powdery. Do not add any liquid. This will be a substitute for breadcrumbs. I feel it makes a crunchier crust than breadcrumbs would.</p>
+<p>Under the arrangement, Victory Farms installs ponds on farmers' land, stocks them with fish, manages the ponds, and harvests eggs weekly, paying farmers for the eggs in return.</p>
 
-<p>After an hour, remove the fillets from the fridge. Arrange on a counter the following, in this order:<br>1. Fish fillets<br>2. Wheat flour<br>3. Eggs<br>4. Seasoned corn flakes powder</p>
+<p>Landowners earn Sh1,200 per kilogram of tilapia eggs harvested, creating a reliable monthly income stream while contributing to the company's aquaculture supply chain.</p>
 
-<p>Dip the fish fillet in the wheat flour and coat, then into the eggs and finally into the seasoned cornflakes powder. Set aside and follow the same procedure for the other fillets. The flour helps the egg wash to adhere, while the egg wash helps the seasoned cornflakes powder to adhere instead of falling off in hot oil. They also help to add texture - the enticingly brown crust, flavor and color.</p>
+<p>Speaking during a HEAP awareness football tournament in Kaksingri, Project Manager Georgia Hoile said the model is designed to build long-term household financial stability.</p>
 
-<p>On a pan, pour some oil, enough to coat the pan. When the oil is hot, place one fillet and fry each side for 5 minutes on medium heat. Place on a grease-proof paper to drain the extra oil and repeat the same procedure for the rest. Serve with slices of lime.</p>
+<p>"The HEAP model allows landowners to participate in our success. The goal is to bring families a reliable monthly income that can help them meet essential needs such as school fees and other household expenses," Hoile said.</p>
 
-<p>You can also choose to bake instead of frying the fish. Baking is actually a healthier option as no oil is used and its proven that there is less loss of omega 3 fatty acids. If you choose to bake, bake uncovered at 375F or 190C for 15-20 mins or until the fillets flake easily with a fork. Avoid turning the fish and if you choose to turn them, turn it only once and use two spatulas instead of one as the fillet can easily fall apart.</p>
+<p>Beyond income generation, the HEAP system boosts local food production through an integrated aquaponics approach. Solar-powered pumps installed on the ponds regularly flush nutrient-rich water into nearby farms, where it is used to irrigate vegetables and other crops, creating a natural fertilizer system driven by fish waste.</p>
+
+<p>The programme currently works with 30 pond owners, some hosting up to seven ponds with many more community members expressing interest as its benefits become widely known.</p>
+
+<p>Victory Farms Community Relations Coordinator David Otieno described HEAP as both an economic catalyst and a community empowerment platform. He said the football tournament was organized to showcase the program's impact and rally more residents to join.</p>
+
+<p>"We are here today courtesy of HEAP, a project the farm runs in partnership with community members where we outsource fish egg production to local smallholder farmers. We are excited about its outcome and the potential it has to accelerate economic transformation and uplift our landowners," Otieno said.</p>
+
+<p>Otieno emphasized that the tournament was designed not only to empower local youth but also to rally the community to join the HEAP bandwagon by telling the story of economic transformation and bring more people on board.</p>
+
+<p>At the tournament, the company donated balls and training equipment to local teams as part of efforts to nurture talent in the football-rich region.</p>
+
+<p>"Kaksingri is a hotbed of football talent, but lack of resources continues to hold the teams back. Victory Farms is stepping in as a trusted partner to promote these teams and expose their abilities as we continue to grow the economics of pond partnership," he said.</p>
+
+<p>However, beneficiaries like Benard Owato reported improved financial stability and better use of previously idle land.</p>
+
+<p>Owato, who hosts two ponds, said he now enjoys financial stability and better use of land that previously lay idle.</p>
+
+<p>"I am a pond partner with two ponds and I get about Sh30,000 as royalties after every harvesting cycle. Victory Farms has helped us a lot. Our lives have transformed. I am able to pay school fees, and by the fourth day of every month, the payment always reflects without fail," he said.</p>
     `,
-    author: "Victory Farms Team",
+    author: "Kenya News Agency",
     readTime: 5,
-    tags: ["Recipes", "Tilapia", "Cooking"]
+    tags: ["Community Impact", "HEAP", "Aquaponics", "Smallholder Farmers"],
+    externalUrl: "https://www.kenyanews.go.ke/families-reap-income-from-aquaponics-project/",
+    source: "Kenya News Agency"
   },
-  {
-    id: "21",
-    slug: "sweet-and-spicy-tilapia",
-    title: "Sweet and Spicy Tilapia",
-    date: "2024-07-01",
-    category: "Community",
-    excerpt: "A flavorful sweet and spicy tilapia recipe with aromatic spices and fresh herbs.",
-    image: sweetSpicyTilapiaImage,
-    content: `
-<p><strong>Ingredients:</strong></p>
-
-<p>3 garlic heads sliced<br>1 red pepper per fillet<br>1 tbsp sweet+spicy paprika, turmeric, cumin<br>1/2 tbsp salt n pepper, chili powder<br>Chopped coriander</p>
-
-<h2><strong>Process:</strong></h2>
-
-<p>Heat 5 tbsp oil on a pan with all the spices, mix well till warm. Add garlic and all the other spices, mix and spread the red pepper around the pan. Gently add the fillets on top, cook with the lid on for 8 minutes so it won't dry, then use a spoon to sprinkle the sauce on top (no need to flip, medium burn the whole way). Add coriander, and cook with the pan open for 4 minutes. Serve with bread, salad, tahini, fresh juice.</p>
-    `,
-    author: "Victory Farms Team",
-    readTime: 3,
-    tags: ["Recipes", "Tilapia", "Cooking"]
-  },
-  {
-    id: "23",
-    slug: "mediterranean-inspired-tilapia",
-    title: "Mediterranean Inspired Tilapia",
-    date: "2024-07-01",
-    category: "Community",
-    excerpt: "A simple Mediterranean-style tilapia recipe with lemon, olives, capers and sundried tomatoes.",
-    image: mediterraneanTilapiaImage,
-    content: `
-<p>This recipe is super simple to make. Simply marinate the tilapia for a few hours in lemon, salt, pepper, minced green chillies (optional), garlic, paprika, melted butter and a little olive oil. Before cooking, garnish fillets with round lemon slices, olives, capers and sundried tomatoes. Cook the fish in a pan or oven and enjoy with a side of your choice. Garnish with parsley/coriander.</p>
-    `,
-    author: "Victory Farms Team",
-    readTime: 2,
-    tags: ["Recipes", "Tilapia", "Mediterranean"]
-  },
-  {
+    {
     id: "2",
     slug: "breaking-boundaries-alex-migwala-journey",
     title: "Breaking boundaries: Alex Migwala's journey to success with Victory Farms",
@@ -152,57 +136,6 @@ export const blogArticles: BlogArticle[] = [
     author: "Victory Farms Team",
     readTime: 7,
     tags: ["Community Impact", "Success Story", "HEAP", "Outgrower Program"]
-  },
-  {
-    id: "1",
-    slug: "families-reap-income-from-aquaponics-project",
-    title: "Families reap income from aquaponics project",
-    date: "2025-11-28",
-    category: "Community Impact",
-    excerpt: "Victory Farms is transforming the livelihoods of smallholder farmers in Kaksingri through the HEAP aquaponics initiative.",
-    image: heapAquaponicsImage,
-    content: `
-<p><strong>As featured in Kenya News Agency</strong></p>
-
-<p>Victory Farms is transforming the livelihoods of smallholder farmers in Kaksingri, Suba South Sub-County, through an ambitious aquaponics initiative that is turning idle land into a consistent source of income.</p>
-
-<p>The Homa Bay Extensive Aquaponics Programme (HEAP), an innovative partnership between the aquaculture firm and local landowners, is emerging as one of the region's most promising rural economic empowerment models.</p>
-
-<p>Through the programme, smallholder farmers earn steady monthly royalties from fish-egg production hosted on their underutilized land.</p>
-
-<p>Under the arrangement, Victory Farms installs ponds on farmers' land, stocks them with fish, manages the ponds, and harvests eggs weekly, paying farmers for the eggs in return.</p>
-
-<p>Landowners earn Sh1,200 per kilogram of tilapia eggs harvested, creating a reliable monthly income stream while contributing to the company's aquaculture supply chain.</p>
-
-<p>Speaking during a HEAP awareness football tournament in Kaksingri, Project Manager Georgia Hoile said the model is designed to build long-term household financial stability.</p>
-
-<p>"The HEAP model allows landowners to participate in our success. The goal is to bring families a reliable monthly income that can help them meet essential needs such as school fees and other household expenses," Hoile said.</p>
-
-<p>Beyond income generation, the HEAP system boosts local food production through an integrated aquaponics approach. Solar-powered pumps installed on the ponds regularly flush nutrient-rich water into nearby farms, where it is used to irrigate vegetables and other crops, creating a natural fertilizer system driven by fish waste.</p>
-
-<p>The programme currently works with 30 pond owners, some hosting up to seven ponds with many more community members expressing interest as its benefits become widely known.</p>
-
-<p>Victory Farms Community Relations Coordinator David Otieno described HEAP as both an economic catalyst and a community empowerment platform. He said the football tournament was organized to showcase the program's impact and rally more residents to join.</p>
-
-<p>"We are here today courtesy of HEAP, a project the farm runs in partnership with community members where we outsource fish egg production to local smallholder farmers. We are excited about its outcome and the potential it has to accelerate economic transformation and uplift our landowners," Otieno said.</p>
-
-<p>Otieno emphasized that the tournament was designed not only to empower local youth but also to rally the community to join the HEAP bandwagon by telling the story of economic transformation and bring more people on board.</p>
-
-<p>At the tournament, the company donated balls and training equipment to local teams as part of efforts to nurture talent in the football-rich region.</p>
-
-<p>"Kaksingri is a hotbed of football talent, but lack of resources continues to hold the teams back. Victory Farms is stepping in as a trusted partner to promote these teams and expose their abilities as we continue to grow the economics of pond partnership," he said.</p>
-
-<p>However, beneficiaries like Benard Owato reported improved financial stability and better use of previously idle land.</p>
-
-<p>Owato, who hosts two ponds, said he now enjoys financial stability and better use of land that previously lay idle.</p>
-
-<p>"I am a pond partner with two ponds and I get about Sh30,000 as royalties after every harvesting cycle. Victory Farms has helped us a lot. Our lives have transformed. I am able to pay school fees, and by the fourth day of every month, the payment always reflects without fail," he said.</p>
-    `,
-    author: "Kenya News Agency",
-    readTime: 5,
-    tags: ["Community Impact", "HEAP", "Aquaponics", "Smallholder Farmers"],
-    externalUrl: "https://www.kenyanews.go.ke/families-reap-income-from-aquaponics-project/",
-    source: "Kenya News Agency"
   },
   {
     id: "3",
@@ -448,7 +381,75 @@ export const blogArticles: BlogArticle[] = [
     tags: ["Investment", "COVID-19", "Growth"],
     externalUrl: "https://karmaimpact.com/open-roads-bridge-loans-aid-social-enterprises-battered-by-covid-19/",
     source: "Karma Impact"
-  }
+  },
+    {
+    id: "20",
+    slug: "crispy-tilapia",
+    title: "Crispy Tilapia",
+    date: "2024-07-01",
+    category: "Community",
+    excerpt: "A delicious crispy tilapia recipe with a crunchy cornflake crust, perfect for a healthy and flavorful meal.",
+    image: crispyTilapiaImage,
+    content: `
+<p><strong>Ingredients:</strong><br>4 tilapia fillets<br>3 eggs<br>1 cup wheat flour<br>3 cups cornflakes<br>1/2 tsp cumin<br>1/2 tsp black pepper<br>1/2 tsp garlic powder<br>1/2 tsp salt<br>1/2 tsp paprika<br>4 red royco beef cubes</p>
+
+<p><strong>Marinade:</strong><br>3 tbsp soy sauce<br>3 tbsp ginger garlic paste<br>1 tsp water</p>
+
+<h2>Process:</h2>
+
+<p>In a bowl, mix the soy sauce, water and ginger garlic paste to make the marinade. Massage the marinade into every fish fillet and chill in the fridge while covered for 30 mins (minimum) to 1 hour (maximum). The soy sauce helps to tenderize the fillet and infuses flavor. Don't marinate for more than 1 hour as the fish fillet will be mushy when cooked.</p>
+
+<p>As the fillet marinates, in a blender, blend the cornflakes, spices and salt till powdery. Do not add any liquid. This will be a substitute for breadcrumbs. I feel it makes a crunchier crust than breadcrumbs would.</p>
+
+<p>After an hour, remove the fillets from the fridge. Arrange on a counter the following, in this order:<br>1. Fish fillets<br>2. Wheat flour<br>3. Eggs<br>4. Seasoned corn flakes powder</p>
+
+<p>Dip the fish fillet in the wheat flour and coat, then into the eggs and finally into the seasoned cornflakes powder. Set aside and follow the same procedure for the other fillets. The flour helps the egg wash to adhere, while the egg wash helps the seasoned cornflakes powder to adhere instead of falling off in hot oil. They also help to add texture - the enticingly brown crust, flavor and color.</p>
+
+<p>On a pan, pour some oil, enough to coat the pan. When the oil is hot, place one fillet and fry each side for 5 minutes on medium heat. Place on a grease-proof paper to drain the extra oil and repeat the same procedure for the rest. Serve with slices of lime.</p>
+
+<p>You can also choose to bake instead of frying the fish. Baking is actually a healthier option as no oil is used and its proven that there is less loss of omega 3 fatty acids. If you choose to bake, bake uncovered at 375F or 190C for 15-20 mins or until the fillets flake easily with a fork. Avoid turning the fish and if you choose to turn them, turn it only once and use two spatulas instead of one as the fillet can easily fall apart.</p>
+    `,
+    author: "Victory Farms Team",
+    readTime: 5,
+    tags: ["Recipes", "Tilapia", "Cooking"]
+  },
+  {
+    id: "21",
+    slug: "sweet-and-spicy-tilapia",
+    title: "Sweet and Spicy Tilapia",
+    date: "2024-07-01",
+    category: "Community",
+    excerpt: "A flavorful sweet and spicy tilapia recipe with aromatic spices and fresh herbs.",
+    image: sweetSpicyTilapiaImage,
+    content: `
+<p><strong>Ingredients:</strong></p>
+
+<p>3 garlic heads sliced<br>1 red pepper per fillet<br>1 tbsp sweet+spicy paprika, turmeric, cumin<br>1/2 tbsp salt n pepper, chili powder<br>Chopped coriander</p>
+
+<h2><strong>Process:</strong></h2>
+
+<p>Heat 5 tbsp oil on a pan with all the spices, mix well till warm. Add garlic and all the other spices, mix and spread the red pepper around the pan. Gently add the fillets on top, cook with the lid on for 8 minutes so it won't dry, then use a spoon to sprinkle the sauce on top (no need to flip, medium burn the whole way). Add coriander, and cook with the pan open for 4 minutes. Serve with bread, salad, tahini, fresh juice.</p>
+    `,
+    author: "Victory Farms Team",
+    readTime: 3,
+    tags: ["Recipes", "Tilapia", "Cooking"]
+  },
+  {
+    id: "23",
+    slug: "mediterranean-inspired-tilapia",
+    title: "Mediterranean Inspired Tilapia",
+    date: "2024-07-01",
+    category: "Community",
+    excerpt: "A simple Mediterranean-style tilapia recipe with lemon, olives, capers and sundried tomatoes.",
+    image: mediterraneanTilapiaImage,
+    content: `
+<p>This recipe is super simple to make. Simply marinate the tilapia for a few hours in lemon, salt, pepper, minced green chillies (optional), garlic, paprika, melted butter and a little olive oil. Before cooking, garnish fillets with round lemon slices, olives, capers and sundried tomatoes. Cook the fish in a pan or oven and enjoy with a side of your choice. Garnish with parsley/coriander.</p>
+    `,
+    author: "Victory Farms Team",
+    readTime: 2,
+    tags: ["Recipes", "Tilapia", "Mediterranean"]
+  },
+
 ];
 
 // Helper to get unique categories
