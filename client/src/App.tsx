@@ -11,8 +11,9 @@ import Team from "@/pages/Team";
 import Products from "@/pages/Products";
 import Impact from "@/pages/Impact";
 import Media from "@/pages/Media";
+import BlogPost from "@/pages/BlogPost";
 import Contact from "@/pages/Contact";
-import NotFound from "@/pages/not-found";
+import NotFound from "@/pages/404";
 
 function Router() {
   return (
@@ -25,6 +26,7 @@ function Router() {
         <Route path="/products" component={Products} />
         <Route path="/impact" component={Impact} />
         <Route path="/media" component={Media} />
+        <Route path="/blog/:slug" component={BlogPost} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>

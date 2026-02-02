@@ -14,7 +14,7 @@ export default function Navigation() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/team", label: "Team" },
-    { href: "/products", label: "Products" },
+    { href: "https://www.victoryfresh.co.ke/collections/all", label: "Products" },
     { href: "/impact", label: "Impact" },
     { href: "/media", label: "Media" },
     { href: "/contact", label: "Contact" },
@@ -53,7 +53,7 @@ export default function Navigation() {
                 </span>
               </Link>
             ))}
-            <Link href="/products" data-testid="button-order-now">
+            <Link href="https://www.victoryfresh.co.ke/collections/all" data-testid="button-order-now">
               <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
                 Order Now
               </Button>

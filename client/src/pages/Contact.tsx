@@ -36,8 +36,11 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-primary mb-1">Address</h3>
                     <p className="text-muted-foreground">
-                      8 KN 16 Avenue, Kiyovu<br />
-                      Kigali, Kenya
+                      Address -Katko Complex <br />
+
+                      Old Mombasa Road  <br />
+
+                      Warehouse 33 & 34 <br />
                     </p>
                   </div>
                 </div>
@@ -48,8 +51,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-accent mb-1">Phone</h3>
-                    <p className="text-muted-foreground">General: +250739402617</p>
-                    <p className="text-muted-foreground">Sales & Customer Service: +250795592280</p>
+                    <p className="text-muted-foreground">General: +0116930330</p>
+                    <p className="text-muted-foreground">Sales & Customer Service: +0116930331 | +0116930332</p>
                   </div>
                 </div>
 
@@ -58,8 +61,16 @@ export default function Contact() {
                     <Mail className="text-primary h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-primary mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@Kivuchoice.com</p>
+                    <h3 className="font-semibold text-primary mb-1">Sales Email</h3>
+                    <p className="text-muted-foreground">customerd@victoryfarmskenya.com</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-primary mb-1">Official Matters</h3>
+                    <p className="text-muted-foreground">info@victoryfarmskenya.com</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-primary mb-1">Email Marketing</h3>
+                    <p className="text-muted-foreground">marketing@victoryfarmskenya.com</p>
                   </div>
                 </div>
 
@@ -76,49 +87,6 @@ export default function Contact() {
                     </p>
                   </div>
                 </div>
-
-                {/* Branch Locations */}
-                <div className="flex items-start space-x-4" data-testid="branch-locations">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <MapPin className="text-primary h-6 w-6" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="font-semibold text-primary mb-3">Our Branch Locations</h3>
-                    <div className="grid md:grid-cols-3 gap-4 text-sm">
-                      <div>
-                        <h4 className="font-medium text-primary mb-2">Kivu Belt Region</h4>
-                        <ul className="space-y-1 text-muted-foreground">
-                          <li>• Rusizi 1</li>
-                          <li>• Kamembe Town</li>
-                          <li>• Rwesero</li>
-                          <li>• Tyazo</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-accent mb-2">Kigali Region</h4>
-                        <ul className="space-y-1 text-muted-foreground">
-                          <li>• Kimironko</li>
-                          <li>• Remera-Giporoso</li>
-                          <li>• Batsinda</li>
-                          <li>• Kanombe</li>
-                          <li>• Kabuga</li>
-                          <li>• Ziniya</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-primary mb-2">Kigali Central</h4>
-                        <ul className="space-y-1 text-muted-foreground">
-                          <li>• Nyabugogo</li>
-                          <li>• Nyamirambo</li>
-                          <li>• Kiyovu</li>
-                          <li>• Gikondo</li>
-                          <li>• Gatenga</li>
-                          <li>• Gisozi</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
 
               {/* Interactive Branch Map */}
@@ -128,7 +96,7 @@ export default function Contact() {
                 </h3>
                 <BranchMap />
                 <p className="text-sm text-muted-foreground text-center mt-4">
-                  Click on any marker to view branch details including contact information and hours
+                  For Access to our Branch Locations Dial *617*13#
                 </p>
               </div>
 

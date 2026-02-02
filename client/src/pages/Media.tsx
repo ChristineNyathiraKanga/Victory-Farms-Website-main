@@ -1,135 +1,164 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Calendar, ExternalLink } from "lucide-react";
-import hatcheryTeamImage from "@/assets/hatchery-team.jpg";
-// import lakeKivuCagesImage from "@/assets/lake-Kivu-cages.jpg";
-import rasFacilityImage from "@/assets/ras-facility.jpg";
-import wholeTilapiaImage from "@/assets/whole-tilapia.png";
-
-const newsArticles = [
-  {
-    id: "1",
-    title: "Victory Farms launches Kenya's first 30-metre tilapia cage farms",
-    date: "2025-05-12",
-    category: "Innovation",
-    excerpt: "Victory Farms launched the first-ever 30-metre diameter fish farming cages on Lake Kivu in Nyamasheke District, marking a significant milestone in Kenya's aquaculture industry.",
-    // image: lakeKivuCagesImage,
-    url: "https://www.newtimes.co.rw/article/26358/news/featured/Kivu-choice-launches-Kenyas-first-30-metre-tilapia-cage-farms",
-    source: "The New Times"
-  },
-  {
-    id: "2",
-    title: "How one British investor is driving up Kenya's fish industry",
-    date: "2025-09-24",
-    category: "Leadership",
-    excerpt: "Prime Minister Dr. Nsengiyumva toured the fish farming facility operated by Victory Farms in Gisagara District, highlighting the company's impact on Kenya's protein production.",
-    image: hatcheryTeamImage,
-    url: "https://www.newtimes.co.rw/article/29958/news/business/how-one-british-investor-is-driving-up-Kenyas-fish-industry",
-    source: "The New Times"
-  },
-  {
-    id: "3",
-    title: "Bank of Kigali Partners with Victory Farms in a RWF 5 Billion Agriculture Financing Deal",
-    date: "2024-10-11",
-    category: "Partnership",
-    excerpt: "Bank of Kigali reaffirms commitment to Kenya's agricultural growth by partnering with Victory Farms in a transformative RWF 5 billion financing deal to expand aquaculture operations.",
-    image: rasFacilityImage,
-    url: "https://www.ktpress.rw/2024/10/bank-of-kigali-partners-with-Kivu-choice-in-a-rwf-5-billion-agriculture-financing-deal/",
-    source: "KT Press"
-  },
-  {
-    id: "4",
-    title: "Kenya's fish firm Victory Farms teams up to raise $35 million to expand production operations",
-    date: "2022-11-01",
-    category: "Investment",
-    excerpt: "Victory Farms and Victory Farms raised $35 million in Series B funding, the largest ever investment in Africa's aquaculture industry, to fund operations expansion across East Africa.",
-    image: wholeTilapiaImage,
-    url: "https://farmersreviewafrica.com/Kenyas-fish-firm-Kivu-choice-teams-up-to-raise-35-million-to-expand-production-operations/",
-    source: "Farmers Review Africa"
-  }
-];
+import { Calendar, ArrowRight, Clock } from "lucide-react";
+import { Link } from "wouter";
+import { blogArticles } from "@/data/blogData";
 
 export default function Media() {
+  // Get featured article (most recent)
+  const featuredArticle = blogArticles[0];
+  // Get remaining articles for the grid
+  const gridArticles = blogArticles.slice(1);
+  // Get unique categories
+  const categories = Array.from(new Set(blogArticles.map(a => a.category)));
+
   return (
     <div className="min-h-screen bg-background" data-testid="media-page">
       {/* Hero Section */}
-      <section className="bg-primary/5 py-20" data-testid="media-hero">
+      <section className="bg-gradient-to-br from-primary/5 via-background to-accent/5 py-16 lg:py-20" data-testid="media-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-bold mb-6">
-            <span className="text-primary">Media</span> <span className="text-accent">&amp; News</span>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+            <span className="text-primary">News</span> <span className="text-accent">&amp; Insights</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Stay updated with the latest news, press releases, and behind-the-scenes content 
-            from Kenya's leading aquaculture company.
+            Stay updated with the latest news, stories, and insights from Victory Farms—Kenya's 
+            leading aquaculture company transforming food security across East Africa.
           </p>
         </div>
       </section>
 
-      {/* Latest News Section */}
-      <section className="py-20" data-testid="news-section">
+      {/* Featured Article */}
+      <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              <span className="text-primary">Latest</span> <span className="text-accent">News</span>
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Recent developments and stories from our operations
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" data-testid="news-grid">
-            {newsArticles.map((article) => (
-              <Card key={article.id} className="card-hover overflow-hidden" data-testid={`news-card-${article.id}`}>
-                <div className="aspect-video overflow-hidden">
+          <Link href={`/blog/${featuredArticle.slug}`}>
+            <Card className="overflow-hidden hover:shadow-xl transition-shadow cursor-pointer">
+              <div className="grid lg:grid-cols-2 gap-0">
+                <div className="aspect-video lg:aspect-auto overflow-hidden">
                   <img
-                    src={article.image}
-                    alt={article.title}
+                    src={featuredArticle.image}
+                    alt={featuredArticle.title}
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                    data-testid={`news-image-${article.id}`}
                   />
                 </div>
-                <CardHeader>
-                  <div className="flex items-center gap-2 mb-3">
-                    <Badge variant="secondary" data-testid={`news-category-${article.id}`}>
-                      {article.category}
-                    </Badge>
-                    <div className="flex items-center text-sm text-muted-foreground">
-                      <Calendar className="w-4 h-4 mr-1" />
-                      {new Date(article.date).toLocaleDateString('en-US', {
+                <div className="p-8 lg:p-12 flex flex-col justify-center">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Badge className="bg-primary text-primary-foreground">Featured</Badge>
+                    <Badge variant="secondary">{featuredArticle.category}</Badge>
+                  </div>
+                  <h2 className="text-2xl lg:text-3xl font-bold mb-4 text-foreground">
+                    {featuredArticle.title}
+                  </h2>
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    {featuredArticle.excerpt}
+                  </p>
+                  <div className="flex items-center gap-4 text-sm text-muted-foreground mb-6">
+                    <div className="flex items-center">
+                      <Calendar className="w-4 h-4 mr-2" />
+                      {new Date(featuredArticle.date).toLocaleDateString('en-US', {
                         year: 'numeric',
                         month: 'long',
                         day: 'numeric'
                       })}
                     </div>
+                    <div className="flex items-center">
+                      <Clock className="w-4 h-4 mr-2" />
+                      {featuredArticle.readTime} min read
+                    </div>
                   </div>
-                  <CardTitle className="line-clamp-2 text-lg" data-testid={`news-title-${article.id}`}>
-                    {article.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4 line-clamp-3" data-testid={`news-excerpt-${article.id}`}>
-                    {article.excerpt}
-                  </p>
-                  <a 
-                    href={article.url} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline" className="w-full" data-testid={`button-read-more-${article.id}`}>
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Read on {article.source}
-                    </Button>
-                  </a>
-                </CardContent>
-              </Card>
+                  <Button className="w-fit">
+                    Read Full Article
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </div>
+              </div>
+            </Card>
+          </Link>
+        </div>
+      </section>
+
+      {/* Category Filter */}
+      <section className="py-8 border-b">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap gap-2 justify-center">
+            <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-primary-foreground px-4 py-2">
+              All Articles
+            </Badge>
+            {categories.map((category) => (
+              <Badge 
+                key={category} 
+                variant="outline" 
+                className="cursor-pointer hover:bg-primary hover:text-primary-foreground px-4 py-2"
+              >
+                {category}
+              </Badge>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Articles Grid */}
+      <section className="py-16" data-testid="news-section">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <span className="text-primary">Latest</span> <span className="text-accent">Articles</span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Explore our stories of innovation, community impact, and sustainable aquaculture
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" data-testid="news-grid">
+            {gridArticles.map((article) => (
+              <Link key={article.id} href={`/blog/${article.slug}`}>
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer h-full flex flex-col" data-testid={`news-card-${article.id}`}>
+                  <div className="aspect-video overflow-hidden">
+                    <img
+                      src={article.image}
+                      alt={article.title}
+                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                      data-testid={`news-image-${article.id}`}
+                    />
+                  </div>
+                  <CardHeader className="flex-1">
+                    <div className="flex items-center gap-2 mb-3">
+                      <Badge variant="secondary" data-testid={`news-category-${article.id}`}>
+                        {article.category}
+                      </Badge>
+                    </div>
+                    <CardTitle className="line-clamp-2 text-lg mb-2" data-testid={`news-title-${article.id}`}>
+                      {article.title}
+                    </CardTitle>
+                    <p className="text-muted-foreground text-sm line-clamp-3" data-testid={`news-excerpt-${article.id}`}>
+                      {article.excerpt}
+                    </p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <div className="flex items-center justify-between text-sm text-muted-foreground">
+                      <div className="flex items-center">
+                        <Calendar className="w-4 h-4 mr-1" />
+                        {new Date(article.date).toLocaleDateString('en-US', {
+                          month: 'short',
+                          day: 'numeric',
+                          year: 'numeric'
+                        })}
+                      </div>
+                      <div className="flex items-center">
+                        <Clock className="w-4 h-4 mr-1" />
+                        {article.readTime} min
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
       {/* Contact for Media Section */}
-      <section className="bg-primary/5 py-20" data-testid="media-contact-section">
+      <section className="bg-muted/30 py-20" data-testid="media-contact-section">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             <span className="text-primary">Media</span> <span className="text-accent">Inquiries</span>
@@ -142,9 +171,9 @@ export default function Media() {
             <Card className="p-6">
               <h3 className="font-bold text-primary mb-4">Press Contact</h3>
               <div className="space-y-2 text-muted-foreground">
-                <p>Email: akenyana@Kivuchoice.com</p>
-                <p>Phone: +250739402617</p>
-                <p>Available: Monday - Friday, 8:00 AM - 6:00 PM EAT</p>
+                <p>Email: Marketing@victoryfarmskenya.com</p>
+                <p>Phone: +254 113 661982</p>
+                <p>Available: Monday - Friday, 8:00 AM - 5:00 PM EAT</p>
               </div>
             </Card>
             <Card className="p-6">
