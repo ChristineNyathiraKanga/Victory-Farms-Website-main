@@ -4,7 +4,7 @@ import { Award, Leaf, TrendingUp, MapPin, ChevronLeft, ChevronRight } from "luci
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback } from "react";
 import teamImage from "@/assets/team-photo.jpg";
-import lakeKivuCages from "@/assets/lake-Kivu-cages.jpg";
+import lakeKivuCages from "@/assets/pond-operations-1.png";
 import pondOperations1 from "@/assets/pond-operations-1.png";
 import pondOperations2 from "@/assets/pond-operations-2.jpg";
 import rasFacility from "@/assets/ras-facility.jpg";
