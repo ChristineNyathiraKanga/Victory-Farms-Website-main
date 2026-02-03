@@ -36,7 +36,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-primary mb-1">Address</h3>
                     <p className="text-muted-foreground">
-                      Address -Katko Complex <br />
+                      Katko Complex <br />
 
                       Old Mombasa Road  <br />
 

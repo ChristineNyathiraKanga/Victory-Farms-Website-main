@@ -22,13 +22,17 @@ export default function Footer() {
             <div className="space-y-2 text-sm">
               <div className="flex items-center">
                 <MapPin className="text-primary mr-2 h-4 w-4" />
-                <span className="text-white/70">Homabay Kenya</span>
+                <span className="text-white/70">
+                Katko Complex
+                Old Mombasa Road
+                Warehouse 33 & 34
+                </span>
               </div>
               <div className="flex items-center">
                 <Phone className="text-primary mr-2 h-4 w-4" />
                 <div className="text-white/70 text-sm">
-                  <div>General: +2541234567</div>
-                  <div>Sales & Service: +25471234567</div>
+                  <div>General: +0116930330</div>
+                  <div>Sales & Service: +0116930331</div>
                 </div>
               </div>
               <div className="flex items-center">
