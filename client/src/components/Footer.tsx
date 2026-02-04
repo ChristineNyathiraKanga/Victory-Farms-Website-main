@@ -32,7 +32,7 @@ export default function Footer() {
                 <Phone className="text-primary mr-2 h-4 w-4" />
                 <div className="text-white/70 text-sm">
                   <div>General: +0116930330</div>
-                  <div>Sales & Service: +0116930331</div>
+                  <div>Sales & Service: +0116930331 | +0116930332</div>
                 </div>
               </div>
               <div className="flex items-center">
@@ -56,7 +56,7 @@ export default function Footer() {
           <div data-testid="products-links">
             <h4 className="font-bold text-lg mb-4 text-accent">Products</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="https://www.victoryfresh.co.ke/collections/all" className="text-white/70 link-hover hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:rounded">Our Products</a></li>
+              <li><a href="/products" className="text-white/70 link-hover hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:rounded">Our Products</a></li>
             </ul>
           </div>
 
@@ -78,6 +78,9 @@ export default function Footer() {
                 </a>
                 <a href="https://www.instagram.com/victoryfarmsltd.ke/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
                   <Instagram className="h-4 w-4" />
+                </a>
+                <a href="https://www.facebook.com/VictoryFarmsKenya/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
+                  <Facebook className="h-4 w-4" />
                 </a>
               </div>
             </div>

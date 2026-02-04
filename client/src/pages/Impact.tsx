@@ -89,7 +89,7 @@ export default function Impact() {
       title: "Addressing Malnutrition",
       subtitle: "Through Affordable Protein Access",
       color: "primary",
-      description: "In Kenya, 1 in 4 children under five is stunted, largely due to inadequate access to affordable, high-quality protein during early childhood. Victory Tilapia offers one of the most cost-effective animal protein sources available.",
+      description: "In Kenya, 1 in 5 children under five is stunted, largely due to inadequate access to affordable, high-quality protein during early childhood. Victory Tilapia offers one of the most cost-effective animal protein sources available.",
       highlights: [
         "Significantly more affordable than chicken or beef",
         "Accessible to low-income households at scale",
@@ -102,10 +102,10 @@ export default function Impact() {
   ];
 
   const impactStats = [
-    { value: "1 in 4", label: "Children under 5 stunted in Kenya", icon: Baby },
+    { value: "1 in 5", label: "Children under 5 stunted in Kenya", icon: Baby },
     { value: "80%+", label: "Egg yields transported by drone", icon: Plane },
     { value: "1000s", label: "Families supported through HEAP", icon: Handshake },
-    { value: "100s", label: "Mama Samaki traders empowered", icon: Fish }
+    { value: "20,000", label: "Mama Samaki traders empowered", icon: Fish }
   ];
 
   return (
@@ -407,7 +407,7 @@ export default function Impact() {
                 <span className="text-accent">Through Affordable Protein Access</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                In Kenya, 1 in 4 children under five is stunted, largely due to inadequate access to 
+                In Kenya, 1 in 5 children under five is stunted, largely due to inadequate access to 
                 affordable, high-quality protein during early childhood. Victory Tilapia offers one of 
                 the most cost-effective animal protein sources available—significantly more affordable 
                 than chicken or beef—making it accessible to low-income households at scale.
@@ -448,7 +448,7 @@ export default function Impact() {
                     <TrendingUp className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <p className="font-bold text-foreground">1 in 4 Children</p>
+                    <p className="font-bold text-foreground">1 in 5 Children</p>
                     <p className="text-sm text-muted-foreground">Under 5 stunted in Kenya</p>
                   </div>
                 </div>

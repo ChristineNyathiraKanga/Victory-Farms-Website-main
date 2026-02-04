@@ -25,7 +25,7 @@ export default function HeroSection() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <Link href="https://www.victoryfresh.co.ke/collections/all" data-testid="button-view-products">
+              <Link href="/products" data-testid="button-view-products">
                 <Button 
                   size="lg"
                   className="btn-primary px-8 py-4 text-base font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"

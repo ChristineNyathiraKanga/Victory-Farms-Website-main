@@ -104,10 +104,6 @@ export default function About() {
       <section className="bg-muted/50 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-6">
-            {/* <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
-              <Award className="mr-2 h-4 w-4" />
-              Our Mission
-            </div> */}
             <h1 className="text-4xl font-bold mb-6" style={{color: 'transparent'}}>
               <span className="text-primary" style={{color: 'var(--primary)'}}>Leading</span> <span className="text-accent" style={{color: 'var(--accent)'}}>Kenya's</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Aquaculture Revolution</span><br />
               <span className="text-accent" style={{color: 'var(--accent)'}}>Through</span> <span className="text-primary" style={{color: 'var(--primary)'}}>Sustainable Excellence</span>
@@ -157,6 +153,10 @@ export default function About() {
 
           {/* Mission Statement */}
           <div className="text-center mb-16">
+             <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
+              <Award className="mr-2 h-4 w-4" />
+              Our Mission
+            </div>
             <h3 className="text-3xl font-bold mb-6">
               <span className="text-primary">Our</span> <span className="text-accent">Mission</span>
             </h3>
@@ -327,7 +327,7 @@ export default function About() {
 
           {/* Branch Network & Value Chain */}
           <div className="bg-muted rounded-2xl p-8 mb-16">
-            <h3 className="text-2xl font-bold text-primary text-center mb-12">From Farm to Market</h3>
+            <h3 className="text-2xl font-bold text-primary text-center mb-12">From Lake to Market</h3>
             
             <div className="grid lg:grid-cols-4 gap-6 mb-8">
               <div className="relative">

@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import ProductCard from "@/components/ProductCard";
 import { Skeleton } from "@/components/ui/skeleton";
 import type { Product } from "@shared/schema";
+import { Link } from "wouter";
 
 export default function Products() {
   const { data: products, isLoading } = useQuery<Product[]>({
@@ -54,8 +55,8 @@ export default function Products() {
               <span className="text-primary">Order</span> <span className="text-accent">Fresh</span> <span className="text-primary">&</span> <span className="text-accent">Nutritious Products</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="products-description">
-              Browse our selection of premium fresh fish and innovative nutrition products. All items are
-              sustainably produced and delivered fresh to your door.
+              Browse our selection of affordable fresh fish and nutrition products. All items are
+              sustainably produced and available all across Kenya.
             </p>
           </div>
         </div>
@@ -87,7 +88,7 @@ export default function Products() {
                 Large quantity orders for restaurants, hotels, and distributors. Customized processing available.
               </p>
               <div className="flex justify-between items-center mb-4">
-                <span className="text-2xl font-bold text-primary">Contact</span>
+                <Link href="/contact" className="text-lg font-bold text-primary">Contact Us</Link>
                 <span className="text-sm text-muted-foreground">for pricing</span>
               </div>
             </div>
@@ -116,7 +117,7 @@ export default function Products() {
               </p>
               <div className="flex justify-between items-center mb-4">
                 <span className="text-lg font-bold text-primary">Nationwide</span>
-                <span className="text-sm text-muted-foreground">Daily Delivery</span>
+                <span className="text-sm text-muted-foreground">at your nearest branch</span>
               </div>
             </div>
           </div>

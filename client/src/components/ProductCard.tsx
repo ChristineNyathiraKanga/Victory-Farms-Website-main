@@ -10,9 +10,10 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   const handleOrderNow = () => {
-    const phoneNumber = "250795592280";
+    const phoneNumber = "+0116930330"; // VLC sales number
+    const vfreshNumber = "+0746760913"; // VFresh sales number
     const message = `Hello, I would like to order ${product.name}`;
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${vfreshNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

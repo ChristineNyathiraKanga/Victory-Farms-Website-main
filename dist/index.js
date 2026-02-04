@@ -21,20 +21,20 @@ var MemStorage = class {
       {
         id: "1",
         name: "Fresh Tilapia - Whole",
-        description: "Premium whole tilapia, freshly harvested from Lake Kivu. Perfect for family meals with exceptional taste and quality.",
-        price: "from 2,600",
-        unit: "RWF per kg",
+        description: "Affordable whole tilapia, freshly harvested from Lake Victoria. Perfect for family meals with exceptional taste and quality.",
+        price: "from 350",
+        unit: "KES per kg",
         category: "fresh",
         imageUrl: "/images/whole-tilapia.png",
-        tags: ["Fresh", "Lake Kivu", "Premium"],
+        tags: ["Affordable", "Fresh", "Lake Victoria"],
         inStock: 1
       },
       {
         id: "2",
         name: "Fresh Tilapia - Fillets",
-        description: "Premium boneless tilapia fillets, ready to cook. Perfect for restaurants and quick meals.",
-        price: "from 11,000",
-        unit: "RWF per kg",
+        description: "Affordable and  boneless tilapia fillets, ready to cook. Perfect for restaurants and quick meals.",
+        price: "from 995",
+        unit: "KES per box",
         category: "fresh",
         imageUrl: "/images/tilapia-fillets.jpg",
         tags: ["Boneless", "Restaurant Ready", "Fresh"],
@@ -42,13 +42,13 @@ var MemStorage = class {
       },
       {
         id: "3",
-        name: "Fish Powder - Kenya's First Superfood",
-        description: "Premium fish powder made from 100% Lake Kivu tilapia. 13 essential vitamins & minerals, 6g complete protein per serving. Protects against stunting.",
-        price: "from 12,000",
-        unit: "RWF per kg",
-        category: "superfood",
+        name: "Fish Oil",
+        description: "Affordable fish oil made from 100% Lake Victoria tilapia.",
+        price: "from 400",
+        unit: "KES per Litre",
+        category: "oil",
         imageUrl: "/images/fish-powder-250g.jpg",
-        tags: ["Superfood", "Nutrition", "Made in Kenya"],
+        tags: ["Affordable", "Nutrition", "Made in Kenya"],
         inStock: 1
       }
     ];
@@ -59,7 +59,7 @@ var MemStorage = class {
         position: "Founder & Group CEO",
         education: "",
         bio: "Joe was born in Egypt and has lived in or worked on five continents. His passion is sustainable development and creating new ways where business can support the development of communities and the restoration of nature and wild areas. After five years in banking and private equity, he discovered fish farming in Ghana where he was CFO of Tropo Farms",
-        skills: [""],
+        skills: ["Group"],
         order: 1,
         imageUrl: "/images/team/joe.png",
         linkedinUrl: "https://ke.linkedin.com/in/joerehmann"
@@ -70,7 +70,7 @@ var MemStorage = class {
         position: "Co-Founder & Group Chief Aquaculture Officer",
         education: "",
         bio: "Steve is an industry pioneer in african aquaculture, and \xA0co-launched\xA0Victory Farms. Over a period of 7 years he led the growth of \xA0Tropo Frams in Ghana from under 250MT p.a. to more than 6,100MT as its \xA0General Manager. He \xA0has extensive aquaculture experience throughout Africa and globally.\xA0It \xA0is Steve's professional aspiration to find himself at the forefront of \xA0African aquaculture, developing appropriate technologies and catalyzing.",
-        skills: [""],
+        skills: ["Group"],
         order: 2,
         imageUrl: "/images/team/steve.png",
         linkedinUrl: "https://ke.linkedin.com/in/steve-moran-796a8575"
@@ -81,7 +81,7 @@ var MemStorage = class {
         position: "Group Chief Financial Officer",
         education: "",
         bio: "Mart, a seasoned leader with global experience in leadership, finance, and strategic operations, has held high-impact roles, including Finance Director at HEINEKEN Mozambique. With a Bachelor's Degree in Econometrics and Operations Research, an MSc in Operations Research & Management, and an Executive Master's in Finance\xA0&\xA0Control.",
-        skills: [""],
+        skills: ["Group"],
         order: 3,
         imageUrl: "/images/team/Mart.png",
         linkedinUrl: "https://ke.linkedin.com/in/mstiekema"
@@ -103,7 +103,7 @@ var MemStorage = class {
         position: "Group Chief Development Officer",
         education: "",
         bio: "Caesar hails from Karachuonyo in Homabay county. He brings on board private sector experience in operations &amp; administration, public sector experience in high level government coordination, non-governmental sector experience in human rights advocacy, and senior level political party management. His other interests include Environmental Conservation, Youth Empowerment, &amp; Food Security.",
-        skills: [""],
+        skills: ["Group"],
         order: 5,
         imageUrl: "/images/team/caesar.png",
         linkedinUrl: null
@@ -114,7 +114,7 @@ var MemStorage = class {
         position: "Group Communications Director",
         education: "",
         bio: "Sarah brings over 10 years of experience in  sales/marketing and brand management, with a focus in the hospitality  sector. Her passion is to build a well-motivated sales team  with the capabilities and expertise to implement Victory Farms\u2019 goals.  She received international training in business development in Dubai,  with focus on sales performance and strategic marketing.",
-        skills: [""],
+        skills: ["Group"],
         order: 6,
         imageUrl: "/images/team/sarah.png",
         linkedinUrl: "https://www.linkedin.com/in/sarah-benhamo-91309a162"
@@ -143,7 +143,7 @@ var MemStorage = class {
         id: "2",
         value: "60M+",
         label: "Fingerlings Annually",
-        description: "Lake Kivu Excellence",
+        description: "Lake Victoria Excellence",
         order: 2
       },
       {

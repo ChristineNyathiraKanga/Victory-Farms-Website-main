@@ -144,7 +144,7 @@ export default function Home() {
             or an investor interested in sustainable aquaculture, join us in building Kenya's protein future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="https://www.victoryfresh.co.ke/collections/all" data-testid="button-cta-products">
+            <Link href="/products" data-testid="button-cta-products">
               <Button 
                 size="lg"
                 className="bg-white text-accent hover:bg-white/90 transition-all transform hover:scale-105"
